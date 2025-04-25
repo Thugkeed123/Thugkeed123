@@ -144,7 +144,7 @@
           <p>
             <h3 class="centered-text">UCHIHA PAIRING CODE</h3>
             <br>
-            <h6>Made By FEARLESS TECH 🖕.</h6>
+            <h6>Made By 𝙏𝙃𝙐𝙂𝙆𝙀𝙀𝘿𓅓.</h6>
             <h6>Enter Your Number with Country Code.</h6>
             <div class="input-container">
               <input placeholder="234807595××××" type="number" id="number" placeholder="Mf Enter your Phone Pumber with Cuntry Code" name="">
@@ -188,10 +188,10 @@
       } else if (c.value.replace(/[^0-9]/g, "").length < 11) {
         a.innerHTML = '<a style="color:red;font-weight:bold">Invalid Number</a><br><br>';
       } else {
-        const Wasi_Tech = c.value.replace(/[^0-9]/g, "");
+        const THUGKEED = c.value.replace(/[^0-9]/g, "");
         let bb = "";
         let bbc = "";
-        const cc = Wasi_Tech.split('');
+        const cc = THUGKEED-MD.split('');
         cc.map(a => {
           bbc += a;
           if (bbc.length == 3) {
@@ -206,7 +206,7 @@
         c.value = "+" + bb;
         c.style = "color:black;font-size:20px";
         a.innerHTML = '<a style="color:white;font-weight:bold">Please Wait...</a><br><br>';
-        let { data } = await axios(`/code?number=${Wasi_Tech}`);
+        let { data } = await axios(`/code?number=${THUGKEED-MD}`);
         let code = data.code || "Service Unavailable";
         a.innerHTML = '<font id="copy" onclick="Copy()" style="color:red;font-weight:bold" size="5">CODE: <span style="color:white;font-weight:bold">' + code + '</span></font><br><br><br>';
       }
